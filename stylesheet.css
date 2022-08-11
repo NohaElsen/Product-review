@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "Fraunces";
+    src: url("Fraunces-Bold.ttf")
+  }
+  @font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat-Medium.ttf")
+  }
+  @font-face {
+    font-family: "Montserrat-Bold";
+    src: url("Montserrat-Bold.ttf")
+  }
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+div{
+    position: relative;
+    top: 150px;
+    margin: auto;
+    background-color: white;
+    width: 630px;
+    height: 450px;
+    border-radius: 10px;
+    align-self: center;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.content{
+    max-width: 270px;
+    max-height: 400px;
+    position: relative;
+    bottom: 430px;
+    left: 335px;
+    line-height: 1;
+}
+.par{
+    color: rgb(134, 134, 134);
+    font-size: 14px;
+    font-family: Montserrat;
+}
+h1{
+    font-size: 32px;
+    font-family: fraunces;
+}
+.para{
+    color: rgb(134, 134, 134);
+    font-size: 14px;
+    font-family: Montserrat;
+    line-height: 1.8;
+}
+h2{
+    font-family: Fraunces;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+}
+.price{
+    display: inline-block;
+    bottom: 494px;
+    left: 482px;
+    font-family: Montserrat;
+    color: rgb(134, 134, 134);
+    text-decoration: line-through;
+    font-size: 14px;
+}
+.shop{
+    position: relative;
+    top: 2px;
+    right: 5px;
+    max-width: 35%;
+    max-height: 30%;
+    border-radius: 0;
+}
+button{
+    position: relative;
+    bottom: 430px;
+    left: 273px;
+    background-color: hsl(158, 36%, 37%);
+    border: hsl(158, 35%, 20%);
+    border-radius: 5px;
+    width: 260px;
+    height: 50px;
+    color: white;
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+}
+button:hover{
+    background-color: hsl(158, 35%, 20%);
+    color: white;
+}
+
+@media screen and (max-width: 615px){
+    div{
+        position: relative;
+        top: 0px;
+        margin: auto;
+        background-color: white;
+        width: 330px;
+        height: 640px;
+        border-radius: 10px;
+        align-self: center;
+    }
+    img{
+        max-width: auto;
+        max-height: auto;
+        object-fit:cover;
+        width: 360px;
+        height: 38%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+    .content{
+        max-width: 270px;
+        max-height: 400px;
+        position: relative;
+        top: 15px;
+        left: 20px;
+        line-height: 1;
+    }
+    .par{
+        color: rgb(134, 134, 134);
+        font-size: 14px;
+        font-family: Montserrat;
+    }
+    h1{
+        font-size: 30px;
+        font-family: fraunces;
+    }
+    .para{
+        color: rgb(134, 134, 134);
+        font-size: 12.9px;
+        font-family: Montserrat;
+        line-height: 1.8;
+    }
+    h2{
+        font-family: Fraunces;
+        font-weight: bold;
+        color: hsl(158, 36%, 37%);
+        font-size: 30px;
+    }
+    .price{
+        display: inline-block;
+        top: -52px;
+        left: 160px;
+        font-family: Montserrat;
+        color: rgb(134, 134, 134);
+        text-decoration: line-through;
+        font-size: 14px;
+    }
+    .shop{
+        position: relative;
+        top: 2px;
+        right: 5px;
+        max-width: 100%;
+        max-height: 100%;
+        width: 5.5%;
+        height: auto;
+        border-radius: 0;
+    }
+    button{
+        position: relative;
+        bottom: -10px;
+        left: -28px;
+        background-color: hsl(158, 36%, 37%);
+        border: hsl(158, 35%, 20%);
+        border-radius: 5px;
+        width: 273px;
+        height: 50px;
+        color: white;
+        font-family: Montserrat-Bold;
+        font-size: 14px;
+    }
+    button:hover{
+        background-color: hsl(158, 35%, 20%);
+        color: white;
+    }
+
+}
