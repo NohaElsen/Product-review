@@ -18,7 +18,7 @@ div{
     top: 150px;
     margin: auto;
     background-color: white;
-    width: 630px;
+    width: 620px;
     height: 450px;
     border-radius: 10px;
     align-self: center;
@@ -30,7 +30,7 @@ img{
     border-top-left-radius: 10px;
 }
 .content{
-    max-width: 270px;
+    max-width: 240px;
     max-height: 400px;
     position: relative;
     bottom: 430px;
@@ -45,6 +45,7 @@ img{
 h1{
     font-size: 32px;
     font-family: fraunces;
+    color: rgb(47, 47, 47);
 }
 .para{
     color: rgb(134, 134, 134);
